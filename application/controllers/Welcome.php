@@ -19,6 +19,7 @@ class Welcome extends Application {
 			$oddrow = ! $oddrow;
 		}
 		$this->data['content'] = $result;
+		//$this->data['caboose_styles'] = '';
 		$this->render();
 	}
 
